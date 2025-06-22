@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="K:\Otus\homework\OtusCsharpProfessional\TaskParallelFileReading\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="K:\Otus\homework\OtusCsharpProfessional\TaskParallelFileReading\.editorconfig" />
+  </ItemGroup>
+
 </Project>
