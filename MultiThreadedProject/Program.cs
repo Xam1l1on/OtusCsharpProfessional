@@ -14,6 +14,7 @@ namespace MultiThreadedProject
             FillArrays();
             Console.WriteLine("Массивы заполнены числами от 0 до 99\n");
             EnvironmentPc.PrintEnvironmentInfo();
+            
             PrintTableHeader();
             PrintResult("Обычное", NotParallel.Sum(_oneHundredThousand), NotParallel.Sum(_oneMillion), NotParallel.Sum(_tenMillion));
             PrintResult("Thread", ParallelThread.Sum(_oneHundredThousand), ParallelThread.Sum(_oneMillion), ParallelThread.Sum(_tenMillion));
