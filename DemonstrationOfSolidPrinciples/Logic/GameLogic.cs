@@ -15,7 +15,7 @@ public class GameLogic : IGameLogic
 
     public void StartGame()
     {
-        int numberToGuess = _random.Generate(1, 100);
+        int numberToGuess = _random.Generate(new RangeNumber { MinNumber = 1, MaxNumber = 100 });
 
         while (true)
         {

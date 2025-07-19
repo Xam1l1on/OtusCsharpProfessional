@@ -3,5 +3,5 @@
 public class SimpleRandomNumberGenerator : IRandomNumberGenerator
 {
     private Random _random = new Random();
-    public int Generate(int min, int max) => _random.Next(min, max + 1);
+    public int Generate(RangeNumber range) => _random.Next(range.MinNumber, range.MaxNumber + 1);
 }

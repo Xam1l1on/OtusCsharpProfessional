@@ -2,6 +2,6 @@
 
 public class RangeNumber
 {
-    int MinNumber { get; set; }
-    int MaxNumber { get; set; }
+    public int MinNumber { get; set; }
+    public int MaxNumber { get; set; }
 }
