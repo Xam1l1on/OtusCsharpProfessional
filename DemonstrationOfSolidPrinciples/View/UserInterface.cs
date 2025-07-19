@@ -6,10 +6,10 @@ public class UserInterface : IUserInterface
     {
         Console.WriteLine(message);
     }
-
     public int GetUserGuess()
     {
         Console.Write("Введите число: ");
-        return int.Parse(Console.ReadLine());
+        int.TryParse(Console.ReadLine(), out int _num);
+        return _num;
     }
 }

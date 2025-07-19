@@ -8,7 +8,7 @@ namespace DemonstrationOfSolidPrinciples
             IUserInterface ui = new UserInterface();
             IRandomNumberGenerator random = new SimpleRandomNumberGenerator();
             IMessageProvider messageProvider = new DefaultMessageProvider();
-            IGameLogic game = new GameLogic(ui, random, messageProvider, 5);
+            IGameLogic game = new GameLogic(ui, random, messageProvider);
             game.StartGame();
         }
     }
